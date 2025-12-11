@@ -8,9 +8,9 @@ fn main() {
     let x = true; // It shadows previous x (i.e. x=45 )
     println!("x is {}", x);
 
-    // -------------------------
+    // =======================
     // It works like this:
-    // -------------------------
+    // =======================
     let mut x = "XYZ";
     {
         let x = 45;
